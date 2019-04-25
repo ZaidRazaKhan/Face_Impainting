@@ -11,7 +11,7 @@ import subprocess
 from tqdm import tqdm
 from six.moves import urllib
 
-parser = argparse.ArgumentParser(description='Download dataset for DCGAN.')
+parser = argparse.ArgumentParser(description='Download dataset for Generative Face Completion.')
 parser.add_argument('datasets', metavar='N', type=str, nargs='+', choices=['celebA', 'lsun', 'mnist'],
            help='name of dataset to download [celebA, lsun, mnist]')
 
